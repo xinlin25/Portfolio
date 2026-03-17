@@ -3,13 +3,14 @@ import { HttpClient } from '@angular/common/http';
 import { Observable } from 'rxjs';
 
 @Injectable({
-  providedIn: 'root',
+  providedIn: 'root'
 })
-
 export class Project {
-  private apiUrl = 'assets/project.json';
+
+  private apiUrl = 'assets/projects.json';
+
   constructor(private http: HttpClient) {}
-  
+
   getProjects(): Observable<any[]> {
     return this.http.get<any[]>(this.apiUrl);
   }
