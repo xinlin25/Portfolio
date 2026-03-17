@@ -15,7 +15,7 @@ export class Projects {
   projects: any[] = [];
 
   ngOnInit() {
-    this.projectService.getProjects().subscribe(data => {
+      this.projectService.getProjects().subscribe(data => {
       this.projects = data;
     });
   }
