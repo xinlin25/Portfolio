@@ -1,0 +1,32 @@
+footer {
+    background-color: rgba(107, 236, 228, 0.304);
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    padding: 100px 0;
+    gap: 50px;
+}
+
+.socials {
+    display: flex;
+    justify-content: space-around;
+    width: 25%;
+}
+
+.socials i {
+    border: 1px solid black;
+    color: black;
+    padding: 8px 10px;
+    border-radius: 50%;
+}
+
+.socials i:hover {
+    background-color: rgba(128, 128, 128, 0.299);
+}
+
+footer p {
+    font-size: 25px;
+}
