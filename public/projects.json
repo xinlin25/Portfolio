@@ -1,14 +1,16 @@
 [
-    {
-        "title": "SuperGestión",
-        "description": "SuperGestión is a web application made for my parents supermarket",
-        "technologies": ["SpringBoot", "PostgreSQL", "Angular", "Bootstrap", "Java"],
-        "github": "https://github.com/xinlin25/TodoList"
-    },
-    {
-        "title": "TodoList",
-        "description": "This project is a simple website application where you can save your daily tasks.",
-        "technologies": ["React", "TypeScript", "CSS"],
-        "github": "https://github.com/xinlin25/TodoList"
-    }
+  {
+    "title": "SuperGestión 🛒",
+    "description": "SuperGestión is a web application made for my parents supermarket",
+    "technologies": ["SpringBoot", "PostgreSQL", "Angular", "Bootstrap", "Java"],
+    "github": "https://github.com/xinlin25/TodoList",
+    "image": "Proyecto1.jpg"
+  },
+  {
+    "title": "TodoList ✏️",
+    "description": "This project is a simple website application where you can save your daily tasks.",
+    "technologies": ["React", "TypeScript", "CSS"],
+    "github": "https://github.com/xinlin25/TodoList",
+    "image": "Proyecto2.png"
+  }
 ]
