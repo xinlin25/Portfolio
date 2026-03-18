@@ -7,7 +7,7 @@ import { Observable } from 'rxjs';
 })
 export class Project {
 
-  private apiUrl = '/projects.json';
+  private apiUrl = './projects.json';
 
   constructor(private http: HttpClient) {}
 
