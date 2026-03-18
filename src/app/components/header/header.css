@@ -1,19 +1,30 @@
 header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
     padding: 30px;
-    background-color: plum;
 }
+ .icon {
+    width: 90px;
+ }
 
 nav {
     display: flex;
-    justify-content: space-around;
+    justify-content: flex-end;
+    gap: 20px;
     align-items: center;
     
 }
 
 nav a {
     cursor: pointer;
-    color: white;
+    text-decoration: none;
+    color: rgba(0, 0, 0, 0.379);
     font-size: 20px;
+}
+
+nav a.active-link {
+  color: black;
 }
 
 nav a:hover {
